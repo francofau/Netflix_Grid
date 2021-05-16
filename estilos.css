@@ -1,0 +1,262 @@
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content:left;
+  width: auto;
+  height: 700px;  
+  background-color: #ffffff;
+  flex-direction: column;
+  background-color: black;
+}
+
+.pelis{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+/*     distancia entre peliculas*/ 
+    grid-row-gap: 100px;
+    grid-column-gap: 8px;
+    padding-top: 120px;
+    padding-right: 8px;
+    padding-left: 40px;    
+    position: relative;
+/*     Lo siguiente no permite que cuando se hace el hover en la pelicula seleccionada, la portada de la misma se salga del contenedor
+*/  overflow:hidden;
+    
+}
+
+.pelis .tituloFila1{
+  color: rgb(170, 169, 169);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 40px;
+}
+
+.pelis .tituloFila2{
+  color: rgb(170, 169, 169);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  padding-top: 290px;
+  padding-left: 40px;
+}
+
+.pelis .tituloFila3{
+  color: rgb(170, 169, 169);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  padding-top: 510px;
+  padding-left: 40px;
+}
+
+.pelis .a:hover{
+  -webkit-transform:scale(1.5);transform:scale(1.5);
+  cursor: pointer;
+}
+
+
+.h4nav{
+  color: rgb(170, 169, 169);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: default;
+  padding-right: 25px;  
+}
+
+.h4nav:hover{
+  color:white
+}
+
+.navI{
+    display: flex;
+    height: 40px;
+    width: 700px;
+    background-color: black;       
+    padding-left: 20px; 
+    position: absolute;
+}
+
+.imgN{
+    display: flex;
+    justify-content: left;
+    width: 90px;
+    height: 50px;  
+    margin-left: 8px;
+    margin-top: 8px;   
+    background-image: url("logoNetflix.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.imgN:hover{
+  transform:scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.navD{
+    display: flex;
+    height: 40px;
+    width: 350px;  
+    margin-left: 1150px; 
+    position: absolute;
+}
+
+.imgD{
+    display: flex;
+    justify-content: right;
+    height: 50px;
+    width: 350px;
+    background-image: url("navD2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+/* PRIMERA FILA*/
+ .a{ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.b{
+ 
+  background-image: url("portada1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.c{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.d{
+ 
+  background-image: url("portada1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.e{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+/* SEGUNDA FILA */
+
+.f{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.g{
+ 
+  background-image: url("portada1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.h{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.i{
+ 
+  background-image: url("portada1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.j{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+/* TERCERA FILA */
+.k{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.l{
+ 
+  background-image: url("portada1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.m{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.n{
+ 
+  background-image: url("portada1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
+
+.o{
+ 
+  background-image: url("portada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 120px;
+}
